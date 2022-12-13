@@ -3,7 +3,7 @@ with open('puzzle_input.txt') as file:
     
 start_indexes = []
 
-for index in range(len(puzzle_input[:2000])):
+for index in range(len(puzzle_input)):
     sequence = puzzle_input[index-4:index]
     
     if len(sequence) == 0:
