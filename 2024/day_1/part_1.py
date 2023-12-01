@@ -15,9 +15,8 @@ for line in lines:
 
 			if first is None:
 				first = number
-				last = number
-			else:
-				last = number
+
+			last = number
 
 	total += first * 10 + last
 
