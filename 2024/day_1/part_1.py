@@ -8,8 +8,6 @@ for line in lines:
 	last = None
 
 	for index, item in enumerate(line):
-		number = None
-
 		if item.isdigit():
 			number = int(item)
 
